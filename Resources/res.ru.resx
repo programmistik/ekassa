@@ -117,34 +117,135 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="a1" xml:space="preserve">
+    <value>E-Kassa - программно-аппаратный комплекс нового типа, оснащенный устройством управления. С помощью E-Kassa производится сбор, обработка, хранение и передача данных чеков, а также информация о транзакциях в базу данных Государственной налоговой службы в режиме реального времени. E-Kassa используется для расчетов с населением в розничной торговле и (или) организациях общественного питания.</value>
+  </data>
+  <data name="a2" xml:space="preserve">
+    <value>За исключением следующих видов деятельности, денежные расчеты за розничную торговлю и (или) общественное питание должны осуществляться через электронный кассовый аппарат, отвечающий установленным критериям и подключенный к электронной информационной системе Государственной налоговой службы.
+      • продажа газет и журналов (если доля таких продаж в общем обороте составляет более 50%);
+      • Продажа сельскохозяйственной продукции на рынках, ярмарках и с колес;
+      • Розничная мобильная торговля, рынки и торговля в  общественных местах с автомобилей, прицепов и полок;
+      • Продажа ценных бумаг и лотерейных билетов;
+      • Объекты занимающиеся обеспечением электроэнергией, газом, водой, горячим водоснабжением и центральным отоплением.</value>
+  </data>
+  <data name="a3" xml:space="preserve">
+    <value>Простой и быстрый процесс продаж. Одна из наиболее важных проблем в процессе продаж - не задерживать клиента на кассе. Решение «ERP-SOFT: E-KASSA» поможет вам ускорить этот процесс. При продаже в программе «1С» информация будет автоматически передана в кассовый аппарат.</value>
+  </data>
+  <data name="a4" xml:space="preserve">
+    <value>В настоящее время интеграция реализована с электронным кассовым аппаратом Az Smart Mobile.</value>
+  </data>
+  <data name="a5" xml:space="preserve">
+    <value>Решение «ERP-SOFT: E-KASSA» разработано для программ, написанных на платформе 1C 8.x. В то же время оно подходит для 1С: Управление торговлей 10.3, 1С: Управление производственным предприятием и 1С: Комплексная автоматизация.</value>
+  </data>
+  <data name="a6" xml:space="preserve">
+    <value>Да, это возможно. Решение «ERP-SOFT: E-KASSA» обладает такой же функциональностью.</value>
+  </data>
+  <data name="a7" xml:space="preserve">
+    <value>Подключение онлайн-кассы к программе 1С осуществляется в течение трех рабочих дней. Обратите внимание, что если в программе не было изменений (доработок), можно подключиться в течение двух рабочих дней.</value>
+  </data>
+  <data name="a8" xml:space="preserve">
+    <value>ERP-SOFT MMC является официальной франчайзи компании 1С, и поэтому программа 1С может быть установлена для вас нашими опытными специалистами.</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Адрес: Азербайджан, пр.Азадлыг, д.74</value>
+  </data>
   <data name="CallUs" xml:space="preserve">
     <value>Позвоните нам:</value>
   </data>
+  <data name="con1" xml:space="preserve">
+    <value>Купите онлайн-касссу если у Вас её нету</value>
+  </data>
+  <data name="con2" xml:space="preserve">
+    <value>Позвоните в ERP-SOFT и оставьте заявку на вызов специалиста. С вами будет заключен договор.</value>
+  </data>
+  <data name="con3" xml:space="preserve">
+    <value>Специалисты ERP-SOFT сделают необходимые изменения в 1С и помогут с подключением онлайн-кассы.</value>
+  </data>
+  <data name="con4" xml:space="preserve">
+    <value>Пополните баланс и получайте удовольствие от удобства работы с онлайн-кассой из 1С</value>
+  </data>
   <data name="connect" xml:space="preserve">
-    <value>Подключить онлайн-кассу</value>
+    <value>Подключить онлайн кассу</value>
+  </data>
+  <data name="howToConnect" xml:space="preserve">
+    <value>Как подключить онлайн-кассу к 1С</value>
+  </data>
+  <data name="lang" xml:space="preserve">
+    <value>Язык</value>
   </data>
   <data name="MainHeader" xml:space="preserve">
-    <value>Онлайн-касса за 5 манат в месяц</value>
+    <value>E-KASSA всего за 5 манат в месяц</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Телефон:</value>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>Всего за 5 манат в месяц</value>
+  </data>
+  <data name="q1" xml:space="preserve">
+    <value>Что такое Онлайн-касса</value>
+  </data>
+  <data name="q2" xml:space="preserve">
+    <value>Кому нужна онлайн-касса?</value>
+  </data>
+  <data name="q3" xml:space="preserve">
+    <value>Для чего нужно подключать онлайн-кассу к 1С?</value>
+  </data>
+  <data name="q4" xml:space="preserve">
+    <value>Какой кассовый аппарат возможно подключать к 1С?</value>
+  </data>
+  <data name="q5" xml:space="preserve">
+    <value>Какую 1С можно подключать к онлайн-кассе?</value>
+  </data>
+  <data name="q6" xml:space="preserve">
+    <value>Что делать если программа находится на RDP сервере?</value>
+  </data>
+  <data name="q7" xml:space="preserve">
+    <value>Сколько времени нужно на подключение?</value>
+  </data>
+  <data name="q8" xml:space="preserve">
+    <value>Что делать если нету программы?</value>
+  </data>
+  <data name="questAnswer" xml:space="preserve">
+    <value>Вопросы и ответы</value>
   </data>
   <data name="question" xml:space="preserve">
-    <value>Задайте вопрос</value>
+    <value>Задать вопрос</value>
+  </data>
+  <data name="questionToManager" xml:space="preserve">
+    <value>Задайте вопрос менеджерам и оставьте заявку</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>Готовы подключиться?</value>
   </data>
   <data name="subTitle" xml:space="preserve">
-    <value>Комплексное решение для отправки чеков в налоговую. Вы получаете кассовый аппарат в аренду + помощь с подключением к ОФД и оформлением документов. Приём платежей через Яндекс.Кассу настраивается отдельно.</value>
+    <value>Для подключения вашей 1С к онлайн кассе есть решение "ERP-SOFT: E-KASSA"</value>
   </data>
   <data name="t1" xml:space="preserve">
-    <value>Выгодный тариф</value>
+    <value>Выгодная цена</value>
   </data>
   <data name="t2" xml:space="preserve">
-    <value>Просто подключить</value>
+    <value>Простое подключение</value>
   </data>
   <data name="t3" xml:space="preserve">
     <value>Полное соответствие</value>
   </data>
   <data name="t4" xml:space="preserve">
-    <value>Помощь в обслуживании</value>
+    <value>Комфортное использование</value>
   </data>
   <data name="Tille" xml:space="preserve">
     <value>ERP-SOFT: OnlineKassa</value>
+  </data>
+  <data name="txt1" xml:space="preserve">
+    <value>Доступные цены и инновации. По мере увеличения количества электронных кассовых аппаратов цена будет ещё более выгодной.</value>
+  </data>
+  <data name="txt2" xml:space="preserve">
+    <value>Подключение онлайн-кассы к программе 1С осуществляется в течение трех рабочих дней. Обратите внимание, что если в программе не было изменений (доработок), можно подключиться в течение двух рабочих дней.</value>
+  </data>
+  <data name="txt3" xml:space="preserve">
+    <value>Полное соответствие Закону 1356-VQD. С 1 июля 2019 года кассовые аппараты торговых объектов будут обновлены и будут выдаваться новые формы чеков.</value>
+  </data>
+  <data name="txt4" xml:space="preserve">
+    <value>По техническим вопросам мы к вашим услугам 24/7. Вы можете получить ответы на все ваши вопросы.</value>
   </data>
 </root>

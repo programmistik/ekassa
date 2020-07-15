@@ -117,26 +117,115 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="a1" xml:space="preserve">
+    <value>E-Kassa nəzarət mexanizmi qurğusu ilə təchiz edilmiş yeni növ proqram-aparat kompleksidir. E-kassa vasitəsi ilə alınmış və emal edilmiş çek məlumatlarının, habelə həyata keçirilən əməliyyatlar barədə məlumatlarının yığılması, emalı, saxlanılması və real vaxt rejimində Dövlət Vergi Xidmətinin informasiya sistemləri bazasına ötürülməsi (köçürülməsi) təmin edilir. E-kassa pərakəndə ticarət və (və ya) ictimai iaşə fəaliyyəti üzrə əhali ilə pul hesablaşmalarının aparmasında istifadə edilir.</value>
+  </data>
+  <data name="a2" xml:space="preserve">
+    <value>Aşağıdakı fəaliyyət növləri istisna olmaqla, pərakəndə ticarət və (və ya) ictimai iaşə fəaliyyəti üzrə nağd pul hesablaşmaları müəyyən edilmiş meyarlara cavab verən və Dövlət Vergi Xidmətinin elektron informasiya sisteminə qoşulan e-kassa vasitəsilə həyata keçirilməlidir.
+      • Qəzet və jurnalların satışı (belə satış dövriyyəsinin ümumi dövriyyədəki payı 50 faizdən çox olduqda);
+      • Kənd təsərrüfatı məhsullarının bazarlarda, yarmarkalarda və səyyar qaydada satışı;
+    • Səyyar, bazarlarda və digər kütləvi ticarət yerlərində piştaxtadan, avtomobildən və qoşqu vasitələrindən pərakəndə satış fəaliyyəti;
+      • Qiymətli kağızların və lotereya biletlərinin satışı;
+      • Elektrik enerjisi, qaz, su, isti su təchizatı və mərkəzi qızdırma sistemi obyektlərinin fəaliyyəti.</value>
+  </data>
+  <data name="a3" xml:space="preserve">
+    <value>Asan və surətli satış prosesi. Satış prosesin ən kritik məsələlərindən biri kassada müştərini ləngitməməkdir. Bu prosesi sürətləndirmək üçün "ERP-SOFT Online Kassa" həlli köməyinizdə olacaq. 1C proqramda satış keçirməklə e-kassa aparatına məlumat avtomatik ötürüləcəkdir.</value>
+  </data>
+  <data name="a4" xml:space="preserve">
+    <value>Hal hazırda inteqrasiya olunub Az Smart Mobile e-kassa aparatı ilə.</value>
+  </data>
+  <data name="a5" xml:space="preserve">
+    <value>«ERP-SOFT: E-KASSA» həlli 1C 8.x platformasında yazılmış proqramlar üçün yaradılıb. Eyni zamanda 1C: Ticarətin idarəedilməsi 10.3, 1C: Upravleniye proizvodstvennım predpriyatiyem və 1C: Kompleksnaya avtomatizaciya üçün yararlıdır.</value>
+  </data>
+  <data name="a6" xml:space="preserve">
+    <value>Bəli, mümkündür. «ERP-SOFT: E-KASSA» həllində həmin funksional mövcutdur.</value>
+  </data>
+  <data name="a7" xml:space="preserve">
+    <value>E-kassanı 1C proqrama qoşulması üç iş günü ərzində həyata keçirilir. Qeyd edək ki proqramda dəyişikliklər olunmayıbsa iki iş gün ərzində qoşmaq mümkündür.</value>
+  </data>
+  <data name="a8" xml:space="preserve">
+    <value>ERP-SOFT MMC rəsmi 1C françayzidir və 1C proqramı Sizin üçün reşəkar mütəxəssizlərimiz tərəfdən quraşdırıla bilər.</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Ünvan: Azərbaycan, Bakı ş., Azadlıq pr. 74</value>
+  </data>
   <data name="CallUs" xml:space="preserve">
     <value>Bizə zəng edin:</value>
+  </data>
+  <data name="con1" xml:space="preserve">
+    <value>E-Kassanız yoxdursa əldə edin</value>
+  </data>
+  <data name="con2" xml:space="preserve">
+    <value>ERP-SOFT-a zəng edin və mütəxəssisimizin çağrışına sifariş edin. Sizinlə müqavilə bağlanacaq</value>
+  </data>
+  <data name="con3" xml:space="preserve">
+    <value>ERP-SOFT mütəxəssisləri 1C-də lazımı dayişikliklər edəcək və E-Kassanıza qoşulma işində kömək edəcəklər</value>
+  </data>
+  <data name="con4" xml:space="preserve">
+    <value>Hesabınızdaki balansınızı artırın və 1C-dən E-Kassailə işləmək rahatlığından zövq alın.</value>
   </data>
   <data name="connect" xml:space="preserve">
     <value>E-KASSANI qoşmaq</value>
   </data>
+  <data name="howToConnect" xml:space="preserve">
+    <value>E-KASSAnı 1C proqrama necə qoşum</value>
+  </data>
+  <data name="lang" xml:space="preserve">
+    <value>Dil</value>
+  </data>
   <data name="MainHeader" xml:space="preserve">
     <value>E-KASSA ayda 5 manata</value>
   </data>
+  <data name="phone" xml:space="preserve">
+    <value>Telefon:</value>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>Ayda cəmi 5 manata</value>
+  </data>
+  <data name="q1" xml:space="preserve">
+    <value>E-Kassa nədir?</value>
+  </data>
+  <data name="q2" xml:space="preserve">
+    <value>E-kassa kimə lazımdır?</value>
+  </data>
+  <data name="q3" xml:space="preserve">
+    <value>Nə üçün e-kassanı 1C proqrama qoşmaq lazımdır?</value>
+  </data>
+  <data name="q4" xml:space="preserve">
+    <value>Hansı kassa aparatı 1C proqrama qoşmaq olar?</value>
+  </data>
+  <data name="q5" xml:space="preserve">
+    <value>Hansı 1C proqramı e-kassaya qoşmaq olar?</value>
+  </data>
+  <data name="q6" xml:space="preserve">
+    <value>Proqram RDP serverdə olduqda e-kassaya qoşmaq mümkündür?</value>
+  </data>
+  <data name="q7" xml:space="preserve">
+    <value>Hansı müddət ərzində qoşursuz?</value>
+  </data>
+  <data name="q8" xml:space="preserve">
+    <value>Proqram yoxdursa nə etmək olar?</value>
+  </data>
+  <data name="questAnswer" xml:space="preserve">
+    <value>Suallar və cavablar</value>
+  </data>
   <data name="question" xml:space="preserve">
-    <value>Sual vermək</value>
+    <value>Sual ver</value>
+  </data>
+  <data name="questionToManager" xml:space="preserve">
+    <value>Menecerlərimizə sual verin və sifariş edin</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>Qoşulmaq hazırsınız?</value>
   </data>
   <data name="subTitle" xml:space="preserve">
-    <value>Sizin 1Cilə e-kassanın əlagəndirilməsi üçün hall var. "ERP-SOFT: OnlineKassa"</value>
+    <value>Sizin 1Cilə e-kassanın əlagəndirilməsi üçün həll var. "ERP-SOFT: E-KASSA"</value>
   </data>
   <data name="t1" xml:space="preserve">
     <value>Sərfəli qiymət</value>
   </data>
   <data name="t2" xml:space="preserve">
-    <value>Asan qoşuma</value>
+    <value>Asan qoşulma</value>
   </data>
   <data name="t3" xml:space="preserve">
     <value>Tam uyğunluq</value>
@@ -148,15 +237,15 @@
     <value>ERP-SOFT: OnlineKassa</value>
   </data>
   <data name="txt1" xml:space="preserve">
-    <value>Sərfəli qiymət və yeniliklər. E-kassa sayınız artdıqca qiymət daha sarfərfəli olacaq</value>
+    <value>Sərfəli qiymət və yeniliklər. E-kassa sayınız artdıqca qiymət daha sərfəli olacaq.</value>
   </data>
   <data name="txt2" xml:space="preserve">
-    <value>E-kassanın 1C proqrama qoşulması üç iş günü ərzində həyata keçirilirş Qeyd edək ki proqramda dəyişikliklər olunmayıbsa iki iş gün ərzində qoşmaq mümkündür</value>
+    <value>E-kassanı 1C proqrama qoşulması üç iş günü ərzində həyata keçirilir. Qeyd edək ki proqramda dəyişikliklər olunmayıbsa iki iş gün ərzində qoşmaq mümkündür</value>
   </data>
   <data name="txt3" xml:space="preserve">
-    <value>1356-VQD saylı qanuna tam u1356-VQD saylı qanuna tam uyğunluq. 1 iul 2019-ci il tarixindən etibarən ticərət obyektlərin kassaları yeniləcək və yeni qəbz nümunələri veriləcəkyğunluqş 1 iun 2019-ci il tarixindən etibarən ticərət obyektlərin kassaları yeniləcək və yeni qəbz nümunələri veriləcək</value>
+    <value>1356-VQD saylı qanuna tam uyğunluq. 1 iyul 2019-ci il tarixindən etibarən ticarət obyektlərin kassaları yenilənəcək və yeni qəbz nümunələri veriləcək.</value>
   </data>
   <data name="txt4" xml:space="preserve">
-    <value>Texniki məsələlər üzrə 24/7, xidmətinizdəyikş Bütün yaranan suallara cavab ala bilərsiz</value>
+    <value>Texniki məsələlər üzrə 24/7, xidmətinizdəyik. Bütün suallara cavab ala bilərsiz.</value>
   </data>
 </root>

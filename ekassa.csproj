@@ -13,10 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Resources\res - Copy.Designer.cs">
-      <DependentUpon>res.resx</DependentUpon>
+    <Compile Update="Resources\res.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
+      <DependentUpon>res.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 

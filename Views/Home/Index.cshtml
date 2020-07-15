@@ -185,9 +185,8 @@
         <div class="tpl-layout__container mytext-center tpl-layout__container_size_m tpl-layout__container_align_center section section_view_default theme theme_color_kassa-default">
             <h2 class="text-center mytext-center text_display_inline-block decorator decorator_indent-b_xxl decorator decorator_indent-r_xxxl text_size_xxxl text_weight_bold text_view_primary " lang="ru" id="5">
                 <span class="text-center mytext-center">
-                    Ayda cəmi 5 manata
-                    @*<a class="title-anchor title-anchor_size_2" href="#5">
-                    </a>*@
+                    @Resources.res.price
+                   
                 </span>
             </h2>
 
@@ -206,7 +205,7 @@
             <div class="tpl-layout__item">
                 <h2 class="text text_type_h2-promo text_align_center decorator decorator_indent-b_xxxl text_size_xxxl text_weight_bold text_view_primary text_anchor_true" lang="ru" id="6">
                     <span class="text_wrap">
-                        Как подключить онлайн-кассу
+                        @Resources.res.howToConnect
                         <a class="title-anchor title-anchor_size_2" href="#6">
                         </a>
                     </span>
@@ -217,9 +216,7 @@
                         <div class="steps__number">
                         </div>
                         <p class="text text_type_p text_view_secondary steps__text text_size_m text_weight_regular" lang="ru">
-                            <a href="https://kassa.yandex.ru/joinups" class="text_view_link">
-                                Подключите
-                            </a> Яндекс.Кассу, если у&nbsp;вас её&nbsp;нет.
+                            @Resources.res.con1
                         </p>
                     </li>
 
@@ -227,9 +224,7 @@
                         <div class="steps__number">
                         </div>
                         <p class="text text_type_p text_view_secondary steps__text text_size_m text_weight_regular" lang="ru">
-                            <a href="https://online.kit-invest.ru/Public/RentCashregister" class="text_view_link ya-metrica ya-metrica_goal">
-                                Заполните анкету
-                            </a> для облачной онлайн-кассы, примите условия сервиса и оплатите обслуживание кассы.
+                            @Resources.res.con2
                         </p>
                     </li>
 
@@ -237,7 +232,7 @@
                         <div class="steps__number">
                         </div>
                         <p class="text text_type_p text_view_secondary steps__text text_size_m text_weight_regular" lang="ru">
-                            Сервис поможет зарегистрировать онлайн-кассу в&nbsp;налоговой, подключить к&nbsp;ОФД, настроить в&nbsp;центре обработки данных и&nbsp;получить КЭП, если нужно.
+                            @Resources.res.con3
                         </p>
                     </li>
 
@@ -245,7 +240,7 @@
                         <div class="steps__number">
                         </div>
                         <p class="text text_type_p text_view_secondary steps__text text_size_m text_weight_regular" lang="ru">
-                            Получите настройки и&nbsp;пропишите их&nbsp;в&nbsp;Яндекс.Кассе.
+                            @Resources.res.con4
                         </p>
                     </li>
 
@@ -259,13 +254,13 @@
             <div class="get-kassa get-kassa_type_custom decorator decorator_indent-b_xxxxl">
                 <h2 class="text text_type_h2 text_align_center decorator decorator_indent-b_l decorator_indent-h_auto text_size_xl text_weight_bold text_view_primary text_anchor_true" lang="ru" id="7">
                     <span class="text_wrap">
-                        Готовы подключиться?
+                        @Resources.res.ready
                         <a class="title-anchor title-anchor_size_2" href="#7">
                         </a>
                     </span>
                 </h2>
                 <div class="text text_size_m text_view_secondary text_short_medium decorator decorator_indent-h_auto decorator_indent-b_xxl" lang="ru">
-                    Задайте вопрос менеджерам или сразу заполняйте заявку.
+                    @Resources.res.questionToManager
                 </div>
                 <a class="myBtn white_text button button_theme_kassa button_size_m button_view_action button_type_link button_for_auth decorator decorator_indent-t_s decorator_indent-r_l ya-metrica ya-metrica_goal button__control i-bem" data-bem='{"button":{}}' role="link" >
                     <span class="button__text">
@@ -292,7 +287,7 @@
             <h2 class="text text_type_h2-promo decorator decorator_indent-b_xxxl text_size_xxxl text_weight_bold text_view_primary text_anchor_true" lang="ru" id="8">
 
                 <span class="text_wrap">
-                    Вопросы и ответы
+                    @Resources.res.questAnswer
 
                 </span>
 
@@ -308,13 +303,11 @@
                                 </div>
                                 <div class="pt-icon-plus__block">
                                     <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        Облачная касса и&nbsp;онлайн-касса&nbsp;&mdash; это одно и&nbsp;тоже?
+                                        @Resources.res.q1
                                     </div>
                                     <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                         <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            Облачная касса&nbsp;&mdash; это онлайн-касса, которая хранится не&nbsp;у&nbsp;продавца, а&nbsp;в&nbsp;дата-центре партнёра. Продавец получает к&nbsp;ней доступ через облачные сервисы.
-                                            <br>
-                                            Всё по&nbsp;54-ФЗ: облачная касса формирует чеки и&nbsp;передаёт их&nbsp;через ОФД в&nbsp;налоговую, электронную форму чека отправляет покупателю, а&nbsp;также хранит информацию о&nbsp;продажах в&nbsp;зашифрованном виде.<br>Важный момент&nbsp;&mdash; облачная касса формирует только электронные чеки, не&nbsp;распечатывая&nbsp;их. Это удобное решение для бизнеса в&nbsp;интернете.
+                                            @Resources.res.a1
                                         </p>
                                     </div>
                                 </div>
@@ -328,22 +321,11 @@
                                 </div>
                                 <div class="pt-icon-plus__block">
                                     <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        В&nbsp;чём плюсы облачной кассы?
+                                        @Resources.res.q2
                                     </div>
                                     <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                         <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            <strong>
-                                                Не&nbsp;требует лишних затрат.
-                                            </strong>
-                                            Хранение кассы, её&nbsp;обслуживание, услуги ОФД, регистрация в&nbsp;ФНС, выпуск КЭП и&nbsp;прочие сервисы уже входят в&nbsp;стоимость. Вам не&nbsp;нужно заботиться о&nbsp;ремонте кассового аппарата и&nbsp;следить за&nbsp;бесперебойным интернет-соединением, эти хлопоты берёт на&nbsp;себя КИТ Инвест.
-                                            <br>
-                                            <strong>
-                                                Находится в&nbsp;надёжном месте.
-                                            </strong>
-                                            В&nbsp;дата-центре касса лучше защищена от&nbsp;сбоев, потому что центры оснащены резервными генераторами электропитания, системой пожаротушения и&nbsp;защитой от&nbsp;сетевых ошибок.<br><strong>
-                                                Просто интегрируется с&nbsp;сайтом.
-                                            </strong>
-                                            Подключение облачной кассы обычно занимает несколько дней. Для интеграции с&nbsp;интернет-магазином достаточно прописать настройки в&nbsp;Яндекс.Кассе и&nbsp;на&nbsp;сайте. После этого данные о&nbsp;заказах на&nbsp;сайте будут отправляться в&nbsp;ОФД.
+                                            @Resources.res.a2
                                         </p>
 
                                     </div>
@@ -358,11 +340,11 @@
                                 </div>
                                 <div class="pt-icon-plus__block">
                                     <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        Какому бизнесу подходит облачная касса?
+                                        @Resources.res.q3
                                     </div>
                                     <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                         <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            Это решение для всех интернет-магазинов и&nbsp;онлайн-сервисов, которым не&nbsp;нужно печатать бумажные чеки.
+                                            @Resources.res.a3
                                         </p>
                                     </div>
                                 </div>
@@ -380,11 +362,11 @@
                                 </div>
                                 <div class="pt-icon-plus__block">
                                     <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        Что такое КЭП и&nbsp;зачем она нужна?
+                                        @Resources.res.q4
                                     </div>
                                     <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                         <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            Квалифицированная электронная подпись (КЭП)&nbsp;&mdash; самый защищённый вид электронной подписи. Она нужна для регистрации кассы на&nbsp;сайте Федеральной налоговой службы. КЭП подтверждает подлинность документа, без неё налоговая не&nbsp;поверит, что чеки принадлежат продавцу. Также без неё не&nbsp;получится зарегистрироваться в&nbsp;системе маркировки товаров &laquo;честныйзнак.рф&raquo;.
+                                            @Resources.res.a4
                                         </p>
                                     </div>
                                 </div>
@@ -397,11 +379,11 @@
                                 </div>
                                 <div class="pt-icon-plus__block">
                                     <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        Поддерживает&nbsp;ли облачная онлайн-касса последние требования законов к&nbsp;чекам?
+                                        @Resources.res.q5
                                     </div>
                                     <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                         <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            Программное обеспечение облачной кассы обновляется вместе с&nbsp;законами. Например, сейчас облачная касса создаёт фискальные документы по&nbsp;формату ФФД 1.05, но&nbsp;учитывает требования к&nbsp;чекам, вступившие в&nbsp;силу с&nbsp;1&nbsp;марта 2020&nbsp;года.
+                                            @Resources.res.a5
                                         </p>
                                     </div>
                                 </div>
@@ -414,14 +396,11 @@
                                 </div>
                                 <div class="pt-icon-plus__block">
                                     <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        Как настроить мою CMS для работы с&nbsp;облачной кассой?
+                                        @Resources.res.q6
                                     </div>
                                     <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                         <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            Для большинства CMS у&nbsp;нас есть
-                                            <a class="text text_view_link" href="https://kassa.yandex.ru/integration/" lang="ru">
-                                                готовые модули
-                                            </a>. С&nbsp;их&nbsp;помощью можно быстро и&nbsp;без разработки установить Яндекс.Кассу на&nbsp;сайт. В&nbsp;модуле есть блок &laquo;54-ФЗ&raquo;&nbsp;&mdash; пропишите в&nbsp;нём настройки для онлайн-кассы, и&nbsp;всё заработает.
+                                            @Resources.res.a6
                                         </p>
                                     </div>
                                 </div>
@@ -435,23 +414,33 @@
                                 </div>
                                 <div class="pt-icon-plus__block">
                                     <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        При каких налоговых режимах нужна облачная касса?
+                                        @Resources.res.q7
                                     </div>
                                     <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                         <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            Использовать облачную кассу без кассового аппарата можно на&nbsp;всех налоговых режимах: ЕНВД, УСН, ОСНО, ЕСХН. Самозанятым на&nbsp;режиме &laquo;Налог на&nbsp;профессиональный доход&raquo; онлайн-касса не&nbsp;нужна.
-                                            <br>
-                                            Если есть сомнения в&nbsp;выборе кассы&nbsp;&mdash;
-                                            <a class="text text_view_link" href="https://kassa.yandex.ru/ask/#onlinekassa" lang="ru">
-                                                спросите у&nbsp;нас
-                                            </a>.
+                                            @Resources.res.a7
                                         </p>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-
-
+                        <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="pt-icon-plus">
+                                <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
+                                    &#10095;
+                                </div>
+                                <div class="pt-icon-plus__block">
+                                    <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
+                                        @Resources.res.q8
+                                    </div>
+                                    <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                        <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
+                                            @Resources.res.a8
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
 
@@ -487,12 +476,12 @@
                 </div>
                 <br />
                 <div class="copyright-text">
-                    Unvan: Azerbaijan, Baku
+                    @Resources.res.address
                 </div>
 
                 <div class="copyright-text">
                     <div class="phone_container">
-                        <div>Telefon: </div> <div class="phone">
+                        <div>@Resources.res.phone </div> <div class="phone">
                             +994 70 322 92 49
                             <p> +994 55 409 00 32</p>
                         </div>
@@ -509,7 +498,7 @@
 
                     <div class="footer__prompt">
                         <div class="footer__title">
-                            <div class="text text_size_l text_view_primary">Язык</div>
+                            <div class="text text_size_l text_view_primary">@Resources.res.lang</div>
                         </div>
                         <div class="text text_view_primary text_size_s">
 
@@ -522,8 +511,9 @@
 
 
             </div>
-            @*</div>*@
+          
             <!--------------->
         </div>
 
 
+    </div>
