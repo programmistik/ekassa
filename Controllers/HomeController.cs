@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ekassa.Models;
+using System.Threading;
+using System.Globalization;
 
 namespace ekassa.Controllers
 {
@@ -18,8 +20,11 @@ namespace ekassa.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
-        {
+        public IActionResult Index(string culture = "en-US")
+        {           
+
+            Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo(culture);
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
             return View();
         }
 
@@ -32,6 +37,16 @@ namespace ekassa.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult SetRussian()
+        {
+            return RedirectToAction("Index", "Home", new { culture = "ru-RU" });
+        }
+
+        public IActionResult SetDefault()
+        {
+            return RedirectToAction("Index", "Home", new { culture = "en-US" });
         }
     }
 }

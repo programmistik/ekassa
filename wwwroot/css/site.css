@@ -57,6 +57,16 @@ a {
     
 }
 
+.white_text{
+    color: #fff !important;
+    cursor: pointer !important;
+}
+
+.green_text {
+    color: #00bf96 !important;
+    cursor: pointer !important;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
