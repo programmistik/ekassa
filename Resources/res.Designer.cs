@@ -136,11 +136,29 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ünvan: Azərbaycan, Bakı ş., Azadlıq pr. 74.
+        ///   Looks up a localized string similar to Ünvan:.
         /// </summary>
         public static string address {
             get {
                 return ResourceManager.GetString("address", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Azərbaycan, .
+        /// </summary>
+        public static string address1 {
+            get {
+                return ResourceManager.GetString("address1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bakı ş., Azadlıq pr. 74.
+        /// </summary>
+        public static string address2 {
+            get {
+                return ResourceManager.GetString("address2", resourceCulture);
             }
         }
         

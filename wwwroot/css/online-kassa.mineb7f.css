@@ -4185,9 +4185,9 @@ a:hover .icon_view_link {
                 margin-right: 20px
             }
 
-        .footer__application .footer__prompt, .footer__application .footer__qr-code {
-            display: none
-        }
+        /*.footer__application .footer__prompt  {*/
+           /* display: none*/
+        /*}*/
 }
 
 @media screen and (max-width:375px) {

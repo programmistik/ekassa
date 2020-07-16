@@ -147,7 +147,13 @@
     <value>ERP-SOFT MMC rəsmi 1C françayzidir və 1C proqramı Sizin üçün reşəkar mütəxəssizlərimiz tərəfdən quraşdırıla bilər.</value>
   </data>
   <data name="address" xml:space="preserve">
-    <value>Ünvan: Azərbaycan, Bakı ş., Azadlıq pr. 74</value>
+    <value>Ünvan:</value>
+  </data>
+  <data name="address1" xml:space="preserve">
+    <value>Azərbaycan, </value>
+  </data>
+  <data name="address2" xml:space="preserve">
+    <value>Bakı ş., Azadlıq pr. 74</value>
   </data>
   <data name="CallUs" xml:space="preserve">
     <value>Bizə zəng edin:</value>

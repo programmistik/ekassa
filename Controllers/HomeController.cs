@@ -20,11 +20,13 @@ namespace ekassa.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index(string culture = "en-US")
-        {           
-
-            Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo(culture);
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
+        public IActionResult Index(string culture)
+        {
+            if (culture != null)
+            {
+                Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo(culture);
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
+            }
             return View();
         }
 

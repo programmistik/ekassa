@@ -147,7 +147,13 @@
     <value>ERP-SOFT MMC является официальной франчайзи компании 1С, и поэтому программа 1С может быть установлена для вас нашими опытными специалистами.</value>
   </data>
   <data name="address" xml:space="preserve">
-    <value>Адрес: Азербайджан, пр.Азадлыг, д.74</value>
+    <value>Адрес:</value>
+  </data>
+  <data name="address1" xml:space="preserve">
+    <value>Азербайджан, </value>
+  </data>
+  <data name="address2" xml:space="preserve">
+    <value>пр.Азадлыг, д.74</value>
   </data>
   <data name="CallUs" xml:space="preserve">
     <value>Позвоните нам:</value>
