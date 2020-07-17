@@ -134,10 +134,7 @@ h1{
 
 
 /*======================*/
-.phone{
-    float:right;
-    margin-left:5px 
-}
+
 .phone_container{
     display:flex !important;
 }
@@ -5423,4 +5420,57 @@ a:hover .icon_view_link {
 
 .footer__application{
  /*   display:block !important;*/
+}
+
+.myWhiteText{
+    color:white;
+}
+.myGrayText {
+    color: gray;
+}
+
+.foot-container {
+    position: center;
+    display: flex;
+   
+    justify-content: left;
+}
+.myCol{
+    width:33%
+}
+.myCol-lastChild {
+    width: auto;
+    position: center;
+    align-content: center;
+    
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.tel {
+    float: left;
+}
+.phone {
+    overflow: hidden;
+    margin-left: 5px;
+   padding-left: 5px;
+}
+.tel-container {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .hide-img {
+        display: none;
+    }
+    .myCol-lastChild {
+        margin-bottom: 10px;
+    }
+
+    .foot-container {       
+        display: block;       
+    }
+    .myCol {
+        width: 100%
+    }
 }

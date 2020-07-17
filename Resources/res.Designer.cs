@@ -136,7 +136,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ünvan:.
+        ///   Looks up a localized string similar to Ünvan: Azərbaycan, Bakı ş., Azadlıq pr. 74.
         /// </summary>
         public static string address {
             get {

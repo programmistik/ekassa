@@ -1,459 +1,451 @@
 ﻿
-    <div class="tpl-layout">
-        <header class="header">
+<div class="tpl-layout">
+    <header class="header">
 
-            <nav class="header__nav tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center">
-                <a class="header__logo" tabindex="-1">
-                    <img src="~/pic/logo1.png" height="44" width="150" class="mt-2" />
-                </a>
+        <nav class="header__nav tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center">
+            <a class="header__logo" tabindex="-1">
+                <img src="~/pic/logo1.png" height="44" width="150" class="mt-2" />
+            </a>
 
 
-                <ul class="header__list">
-                    <li class="header__item">
-                        <a class="header__link " href="http://erpsoft.az/?tab=tasks">
-                            erp-soft.az
-                        </a>
-                    </li>
-                    <li class="header__item">
-                        <a class="header__link " href="https://e-kassa.gov.az">
-                            e-kassa.gov.az
-                        </a>
-                    </li>
-                </ul>
-
-            </nav>
-        </header>
-
-        <div class="tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center section section_vertical-align_center section_height_screen section_view_default">
-            <div class="tpl-grid tpl-grid_xl-columns_10 tpl-grid_l-columns_10 tpl-grid_m-columns_12 tpl-grid_s-columns_8 tpl-grid_col-gap_full tpl-grid_vertical-align_center">
-                <div class="tpl-grid__fraction tpl-grid__fraction_l-col_5 tpl-grid__fraction_m-col_7 tpl-grid__fraction_s-col_8">
-                    <h1 class="text text_type_h1-promo decorator decorator_indent-b_xxxl text_short_medium text_size_xxxxl text_weight_bold text_view_primary" lang="ru">
-                        @Resources.res.MainHeader
-                    </h1>
-                    <div class="text text_size_l text_view_white text_weight_bold text_align_left decorator decorator_space-v_s">
-                        <div class="text text_size_m text_weight_bold" style="display: inline;">
-                        </div>
-                    </div>
-                    <div class="text text_type_lead text_short_medium text_view_secondary decorator decorator_indent-b_l text_size_l text_weight_regular">
-
-                        @Resources.res.subTitle
-                    </div>
-                    <a class="myBtn button button_theme_kassa button_size_m button_view_action button_type_link button_for_auth decorator decorator_indent-t_s decorator_indent-r_l ya-metrica ya-metrica_goal button__control i-bem" data-bem='{"button":{}}' role="link" href="#">
-                        <span class="button__text">
-                            @Resources.res.connect
-                        </span>
+            <ul class="header__list">
+                <li class="header__item">
+                    <a class="header__link " href="http://erpsoft.az/?tab=tasks">
+                        erp-soft.az
                     </a>
-                    <a class="myBtn button button_theme_kassa button_size_l button_view_plain button_type_link decorator decorator_indent-t_s decorator_indent-r_l button__control i-bem" data-bem='{"button":{}}' role="link" href="#">
-                        <span class="icon icon_size_s icon_view_link icon_name_comment">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                                <path fill-rule="evenodd" d="M1 3h14c.552 0 1 .456 1 1.019v7.983A.992.992 0 0 1 15 13H9l-4.505 2.861A.99.99 0 0 1 3 15v-2.003H1a.99.99 0 0 1-1-.995V4.02A1.01 1.01 0 0 1 1 3zm1 1.999V11h3v2l3-2h6V5L2 4.999z" />
-                            </svg>
-                        </span>
-                        <span class="button__text">
-                            @Resources.res.question
-                        </span>
+                </li>
+                <li class="header__item">
+                    <a class="header__link " href="https://e-kassa.gov.az">
+                        e-kassa.gov.az
                     </a>
-                </div>
-                <div class="tpl-grid__fraction tpl-grid__fraction_l-col_5 tpl-grid__fraction_m-col_5 tpl-grid__fraction_s-col_hidden tpl-grid__fraction_xs-col_hidden">
-                    <div class="illustration illustration_name_54fz">
-                        <img class="image illustration__kassa" src="~/pic/kassa1.png" alt="Облачная касса для интернет-магазина">
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <div class="tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center section section_vertical-align_center section_height_screen section_view_default">
+        <div class="tpl-grid tpl-grid_xl-columns_10 tpl-grid_l-columns_10 tpl-grid_m-columns_12 tpl-grid_s-columns_8 tpl-grid_col-gap_full tpl-grid_vertical-align_center">
+            <div class="tpl-grid__fraction tpl-grid__fraction_l-col_5 tpl-grid__fraction_m-col_7 tpl-grid__fraction_s-col_8">
+                <h1 class="text text_type_h1-promo decorator decorator_indent-b_xxxl text_short_medium text_size_xxxxl text_weight_bold text_view_primary" lang="ru">
+                    @Resources.res.MainHeader
+                </h1>
+                <div class="text text_size_l text_view_white text_weight_bold text_align_left decorator decorator_space-v_s">
+                    <div class="text text_size_m text_weight_bold" style="display: inline;">
                     </div>
                 </div>
-            </div>
-        </div>
-        <!------------->
-        <div id="myModal" class="modal">
+                <div class="text text_type_lead text_short_medium text_view_secondary decorator decorator_indent-b_l text_size_l text_weight_regular">
 
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                
-                    <h3> @Resources.res.CallUs </h3>
-                <br />
-                <p> +994 70 322 92 49</p>
-                <p> +994 55 409 00 32</p>
-               
-            </div>
-
-        </div>
-        <!------------>
-
-        <div class="tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center section section_vertical-align_center section_height_screen section_view_dark">
-            <div class="tpl-grid tpl-grid_m-ratio_1-1 tpl-grid_col-gap_full tpl-grid_row-gap_full">
-                <div class="section__fraction section__fraction_s_space-xxxl">
-                    <div class="vector vector_name_money decorator decorator_indent-b_xl">
-                        <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g fill="none" id="VectorNameMoneyBanknote1">
-                                <path fill="var(--vector-tone--1)" fill-rule="nonzero" d="M6.17 45.663l44.811-16.3 11.849 16.974-44.806 16.302z" />
-                                <ellipse fill="var(--vector-tone-1)" fill-rule="nonzero" cx="34" cy="45.5" rx="7" ry="5.5" />
-                            </g>
-                            <g fill="none" id="VectorNameMoneyBanknote2">
-                                <path fill="var(--vector-tone-default)" fill-rule="nonzero" d="M6.17 34.663l44.811-16.3 11.849 16.974-44.806 16.302z" />
-                                <ellipse fill="var(--vector-tone-2)" fill-rule="nonzero" cx="34" cy="35.5" rx="7" ry="5.5" />
-                            </g>
-                            <g fill="none" id="VectorNameMoneyBanknote3">
-                                <path fill="var(--vector-tone-1)" fill-rule="nonzero" d="M6.17 23.663l44.811-16.3 11.849 16.974-44.806 16.302z" />
-                                <ellipse fill="var(--vector-tone-3)" fill-rule="nonzero" cx="34" cy="24.5" rx="7" ry="5.5" />
-                            </g>
-                            <ellipse id="VectorNameMoneyCoin1" fill="var(--vector-tone--1)" fill-rule="nonzero" cx="50" cy="57.5" rx="7" ry="5.5" />
-                            <ellipse id="VectorNameMoneyCoin2" fill="var(--vector-tone-1)" fill-rule="nonzero" cx="50" cy="53.5" rx="7" ry="5.5" />
-                            <ellipse id="VectorNameMoneyCoin3" fill="var(--vector-tone-2)" fill-rule="nonzero" cx="50" cy="49.5" rx="7" ry="5.5" />
-                        </svg>
-                    </div>
-                    <h2 class="text text_type_h2 decorator decorator_indent-b_l text_size_xl text_weight_bold text_view_primary " id="1">
-                        <span class="text_wrap">
-                            @Resources.res.t1
-                            <a class="title-anchor title-anchor_size_2">
-                            </a>
-                        </span>
-                    </h2>
-                    <p class="text text_type_p text_view_secondary decorator decorator_indent-b_l text_size_m text_weight_regular">
-                        @Resources.res.txt1
-                    </p>
+                    @Resources.res.subTitle
                 </div>
-                <div class="section__fraction section__fraction_s_space-xxxl">
-                    <div class="vector vector_name_law decorator decorator_indent-b_xl">
-                        <svg width="74" height="74" viewBox="0 0 74 74" xmlns="http://www.w3.org/2000/svg">
-                            <g id="VectorNameLawHammer">
-                                <path fill="var(--vector-tone--2)" fill-rule="nonzero" d="M36.312 34.217c-1.849 3.497-3.382 7.178-4.598 11.041l-16.454-9.5c3.289-3.586 6.121-7.436 8.496-11.549 2.375-4.114 4.293-8.491 5.754-13.133l16.454 9.5c-2.575 2.808-4.871 5.777-6.886 8.909 1.124.732 2.255 1.406 3.453 2.079 1.271.763 2.627 1.441 3.898 2.034 1.271.593 2.542 1.186 3.729 1.695 1.186.508 2.373 1.017 3.475 1.356 1.102.424 2.119.763 2.966 1.017.932.254 1.695.508 2.373.678.678.169 1.186.339 1.525.424.339.085.593.085.593.085 3.136.508 5.169 3.475 4.576 6.61-.763 2.966-3.475 4.915-6.271 4.576-1.441-.169-2.712-.847-3.644-1.949l-.424-.424c-.254-.254-.593-.678-1.102-1.102-.508-.508-1.102-1.017-1.78-1.61-.678-.593-1.525-1.271-2.458-2.034-.932-.678-1.864-1.441-2.966-2.203-1.102-.763-2.203-1.525-3.39-2.288-1.186-.763-2.458-1.525-3.729-2.288-1.149-.69-2.368-1.31-3.593-1.923z" />
-                                <path fill="var(--vector-tone-1)" d="M16.016 35.027l15.733 9.083c.957.552 1.284 1.775.732 2.732l-.375.65c-.552.957-1.775 1.284-2.732.732l-15.733-9.083c-.957-.552-1.284-1.775-.732-2.732l.375-.65c.552-.957 1.775-1.284 2.732-.732zm15.833-26.917l15.733 9.083c.957.552 1.284 1.775.732 2.732l-.375.65c-.552.957-1.775 1.284-2.732.732l-15.733-9.083c-.957-.552-1.284-1.775-.732-2.732l.375-.65c.552-.957 1.775-1.284 2.732-.732z" />
-                            </g>
-                            <path id="VectorNameLawWood" fill="var(--vector-tone-default)" d="M10 56h25.31c.552 0 1 .448 1 1l-.029.239c-.446 1.809-.669 3.396-.669 4.761 0 1.239.184 2.478.552 3.715.157.529-.144 1.086-.674 1.244-.092.027-.188.041-.285.041h-25.061c-.552 0-1-.448-1-1 0-.096.014-.192.041-.285.284-.955.426-2.194.426-3.715 0-1.769-.192-3.346-.575-4.733-.147-.532.165-1.083.697-1.23l.267-.036z" />
-                        </svg>
-                    </div>
-                    <h2 class="text text_type_h2 decorator decorator_indent-b_l text_size_xl text_weight_bold text_view_primary text_anchor_true" id="2">
-                        <span class="text_wrap">
-                            @Resources.res.t3
-                            <a class="title-anchor title-anchor_size_2" href="#2">
-                            </a>
-                        </span>
-                    </h2>
-                    <p class="text text_type_p text_view_secondary decorator decorator_indent-b_l text_size_m text_weight_regular" lang="ru">
-                        @Resources.res.txt3
-                    </p>
-                </div>
-                <div class="section__fraction section__fraction_s_space-xxxl">
-                    <div class="vector vector_name_connection decorator decorator_indent-b_xl">
-                        <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
-                            <g fill="none" id="VectorNameConnectionPlug">
-                                <path fill="var(--vector-tone-1)" d="M37.975 30.576l5.302 5.302c.586.586.586 1.535 0 2.121-.586.586-1.535.586-2.121 0l-5.302-5.302 2.121-2.121zM30.197 38.354l5.302 5.302c.586.586.586 1.535 0 2.121-.586.586-1.535.586-2.121 0l-5.302-5.302 2.121-2.121z" />
-                                <path fill="var(--vector-tone--1)" d="M28.075 36.233l2.121 2.121-2.121 2.121-2.121-2.121zM35.854 28.454l2.121 2.121-2.121 2.121-2.121-2.121z" />
-                                <path fill="var(--vector-tone-default)" d="M30.197 14.313l9.898 9.898-18.382 18.382-9.898-9.898z" />
-                                <path fill="var(--vector-tone--2)" d="M7.241 12.569l-3.621-3.621c-.781-.781-.781-2.047 0-2.828.781-.781 2.047-.781 2.828 0l3.621 3.621c1.334-.356 2.817-.011 3.864 1.036l-5.657 5.657c-1.047-1.047-1.392-2.53-1.036-3.864z" />
-                                <path fill="var(--vector-tone--1)" d="M30.194 14.313l-15.554-4.242-7.07 7.07 4.242 15.554z" />
-                            </g>
-                            <g fill="none" id="VectorNameConnectionSocket">
-                                <path fill="var(--vector-tone-default)" d="M49.288 33.407l9.898 9.898-18.382 18.382-9.898-9.898z" />
-                                <path fill="var(--vector-tone--2)" d="M63.759 63.431l3.621 3.621c.781.781.781 2.047 0 2.828-.781.781-2.047.781-2.828 0l-3.621-3.621c-1.334.356-2.817.011-3.864-1.036l5.657-5.657c1.047 1.047 1.392 2.53 1.036 3.864z" />
-                                <path fill="var(--vector-tone--1)" d="M59.186 43.305l4.242 15.554-7.07 7.07-15.554-4.242z" />
-                            </g>
-                        </svg>
-                    </div><h2 class="text text_type_h2 decorator decorator_indent-b_l text_size_xl text_weight_bold text_view_primary text_anchor_true" id="3">
-                        <span class="text_wrap">
-                            @Resources.res.t2
-                            <a class="title-anchor title-anchor_size_2" href="#3">
-                            </a>
-                        </span>
-                    </h2>
-                    <p class="text text_type_p text_view_secondary decorator decorator_indent-b_l text_size_m text_weight_regular">
-                        @Resources.res.txt2
-                    </p>
-                </div>
-                <div class="section__fraction section__fraction_s_space-xxxl">
-                    <div class="vector vector_name_support decorator decorator_indent-b_xl">
-                        <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
-                            <path fill="var(--vector-tone-2)" fill-rule="nonzero" d="M35.58 41.104c6.492 0 11.755-7.606 11.755-15.953s-2.507-15.113-11.755-15.113c-9.248 0-11.755 6.766-11.755 15.113s5.263 15.953 11.755 15.953z" />
-                            <path fill="var(--vector-tone-default)" fill-rule="nonzero" d="M49.024 18.434c-1.501-6.028-6.951-10.495-13.444-10.495-6.493 0-11.943 4.467-13.444 10.495h.01v11.07c.661 3.403 2.104 6.451 4.331 9.16l-1.946 1.6c-2.537-3.086-4.169-6.579-4.892-10.461-1.512-.608-2.531-2.093-2.531-5.492 0-3.265.94-4.764 2.355-5.416 1.368-7.66 8.063-13.475 16.117-13.475 8.063 0 14.764 5.828 16.122 13.501 1.412.674 2.35 2.191 2.35 5.391 0 4.962-2.255 5.877-5.038 5.877v-11.755h.01z" />
-                            <path fill="var(--vector-tone--2)" fill-rule="nonzero" d="M25.505 11.297c6.7.582 6.045-3.376 12.784-1.782 4.639 1.097 7.474 4.35 8.505 9.758-2.928-2.696-5.235-4.043-6.92-4.043-6.717 0-8.677 7.044-14.369 3.204-1.28-.864-2.614-4.469 0-7.137z" />
-                            <path fill="var(--vector-tone-default)" fill-rule="nonzero" d="M63.212 63.421c-8.134 2.492-17.392 3.902-27.212 3.902-9.986 0-19.389-1.457-27.622-4.028l.886-4.962c.688-3.852 3.544-6.957 7.325-7.965l8.328-2.219c1.408-.375 2.521-1.454 2.94-2.85l1.007-3.355c1.636 1.119 3.874 1.679 6.717 1.679 2.842 0 5.081-.56 6.717-1.679l1.004 3.348c.419 1.395 1.531 2.474 2.938 2.85l8.568 2.287c3.658.976 6.46 3.921 7.254 7.624l1.151 5.37z" />
-                            <path fill="var(--vector-tone--2)" fill-rule="nonzero" d="M39 68l-3 2-3-2 1.689-14.663-1.657-2.578 2.969-2.099 2.969 2.099-1.657 2.577z" />
-                        </svg>
-                    </div>
-                    <h2 class="text text_type_h2 decorator decorator_indent-b_l text_size_xl text_weight_bold text_view_primary text_anchor_true" id="4">
-                        <span class="text_wrap">
-                            @Resources.res.t4
-                            <a class="title-anchor title-anchor_size_2" href="#4">
-                            </a>
-                        </span>
-                    </h2>
-                    <p class="text text_type_p text_view_secondary decorator decorator_indent-b_l text_size_m text_weight_regular">
-                        @Resources.res.txt4
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="tpl-layout__container mytext-center tpl-layout__container_size_m tpl-layout__container_align_center section section_view_default theme theme_color_kassa-default">
-            <h2 class="text-center mytext-center text_display_inline-block decorator decorator_indent-b_xxl decorator decorator_indent-r_xxxl text_size_xxxl text_weight_bold text_view_primary " lang="ru" id="5">
-                <span class="text-center mytext-center">
-                    @Resources.res.price
-                   
-                </span>
-            </h2>
-
-
-            <div class="tpl-grid tpl-grid_l-ratio_1-1-1-1 tpl-grid_m-ratio_1-1-1-1 tpl-grid_s-ratio_1-1 tpl-grid_col-gap_full tpl-grid_row-gap_full">
-
-
-
-
-            </div>
-
-
-        </div>
-
-        <div class="tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center section section_vertical-align_center section_height_screen section_view_default decorator__padding decorator__padding_bottom_xxxxxl">
-            <div class="tpl-layout__item">
-                <h2 class="text text_type_h2-promo text_align_center decorator decorator_indent-b_xxxl text_size_xxxl text_weight_bold text_view_primary text_anchor_true" lang="ru" id="6">
-                    <span class="text_wrap">
-                        @Resources.res.howToConnect
-                        <a class="title-anchor title-anchor_size_2" href="#6">
-                        </a>
-                    </span>
-                </h2>
-                <ol class="steps steps_view_split tpl-grid tpl-grid_s-ratio_1-1 tpl-grid_m-ratio_1-1-1-1">
-
-                    <li class="steps__item">
-                        <div class="steps__number">
-                        </div>
-                        <p class="text text_type_p text_view_secondary steps__text text_size_m text_weight_regular" lang="ru">
-                            @Resources.res.con1
-                        </p>
-                    </li>
-
-                    <li class="steps__item">
-                        <div class="steps__number">
-                        </div>
-                        <p class="text text_type_p text_view_secondary steps__text text_size_m text_weight_regular" lang="ru">
-                            @Resources.res.con2
-                        </p>
-                    </li>
-
-                    <li class="steps__item">
-                        <div class="steps__number">
-                        </div>
-                        <p class="text text_type_p text_view_secondary steps__text text_size_m text_weight_regular" lang="ru">
-                            @Resources.res.con3
-                        </p>
-                    </li>
-
-                    <li class="steps__item">
-                        <div class="steps__number">
-                        </div>
-                        <p class="text text_type_p text_view_secondary steps__text text_size_m text_weight_regular" lang="ru">
-                            @Resources.res.con4
-                        </p>
-                    </li>
-
-
-                </ol>
-            </div>
-        </div>
-
-
-        <div class="tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center section section_view_dark">
-            <div class="get-kassa get-kassa_type_custom decorator decorator_indent-b_xxxxl">
-                <h2 class="text text_type_h2 text_align_center decorator decorator_indent-b_l decorator_indent-h_auto text_size_xl text_weight_bold text_view_primary text_anchor_true" lang="ru" id="7">
-                    <span class="text_wrap">
-                        @Resources.res.ready
-                        <a class="title-anchor title-anchor_size_2" href="#7">
-                        </a>
-                    </span>
-                </h2>
-                <div class="text text_size_m text_view_secondary text_short_medium decorator decorator_indent-h_auto decorator_indent-b_xxl" lang="ru">
-                    @Resources.res.questionToManager
-                </div>
-                <a class="myBtn white_text button button_theme_kassa button_size_m button_view_action button_type_link button_for_auth decorator decorator_indent-t_s decorator_indent-r_l ya-metrica ya-metrica_goal button__control i-bem" data-bem='{"button":{}}' role="link" >
+                <a class="myBtn button button_theme_kassa button_size_m button_view_action button_type_link button_for_auth decorator decorator_indent-t_s decorator_indent-r_l ya-metrica ya-metrica_goal button__control i-bem" data-bem='{"button":{}}' role="link" href="#">
                     <span class="button__text">
                         @Resources.res.connect
                     </span>
                 </a>
-                <a class="myBtn green_text button button_theme_kassa button_size_l button_type_link button_view_plain decorator decorator_indent-a_s button__control i-bem " data-bem='{"button":{}}' role="link">
+                <a class="myBtn button button_theme_kassa button_size_l button_view_plain button_type_link decorator decorator_indent-t_s decorator_indent-r_l button__control i-bem" data-bem='{"button":{}}' role="link" href="#">
                     <span class="icon icon_size_s icon_view_link icon_name_comment">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                             <path fill-rule="evenodd" d="M1 3h14c.552 0 1 .456 1 1.019v7.983A.992.992 0 0 1 15 13H9l-4.505 2.861A.99.99 0 0 1 3 15v-2.003H1a.99.99 0 0 1-1-.995V4.02A1.01 1.01 0 0 1 1 3zm1 1.999V11h3v2l3-2h6V5L2 4.999z" />
                         </svg>
                     </span>
-                    <span class="button__text ">
+                    <span class="button__text">
                         @Resources.res.question
                     </span>
                 </a>
             </div>
-            @*<div class="text text_size_xs text_view_secondary text_align_center text_short_default" style="display: block; margin: auto" lang="ru">Сервис предоставляется ООО &laquo;Кит Инвест&raquo; (ИНН 4004007928) в&nbsp;порядке и&nbsp;на&nbsp;условиях, заключаемого между сторонами
-            <a class="text text_view_link" href="https://kit-invest.ru/rules/54fz.pdf" lang="ru">договора.</a> ООО НКО &laquo;Яндекс.Деньги&raquo; не&nbsp;несёт ответственность за&nbsp;этот сервис. С&nbsp;вопросами по&nbsp;поддержке сервиса звоните ООО &laquo;Кит Инвест&raquo; по&nbsp;номеру&nbsp;<nobr class="phone">8 (800) 350-15-40</nobr> или пишите на&nbsp;info@kit-invest.ru
-            </div>*@
+            <div class="tpl-grid__fraction tpl-grid__fraction_l-col_5 tpl-grid__fraction_m-col_5 tpl-grid__fraction_s-col_hidden tpl-grid__fraction_xs-col_hidden">
+                <div class="illustration illustration_name_54fz">
+                    <img class="image illustration__kassa" src="~/pic/kassa1.png" alt="Облачная касса для интернет-магазина">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------->
+    <div id="myModal" class="modal">
+
+        <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <h3> @Resources.res.CallUs </h3>
+            <br />
+            <p> +994 70 322 92 49</p>
+            <p> +994 55 409 00 32</p>
+
         </div>
 
-        <div class="tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center section">
-            <h2 class="text text_type_h2-promo decorator decorator_indent-b_xxxl text_size_xxxl text_weight_bold text_view_primary text_anchor_true" lang="ru" id="8">
+    </div>
+    <!------------>
 
+    <div class="tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center section section_vertical-align_center section_height_screen section_view_dark">
+        <div class="tpl-grid tpl-grid_m-ratio_1-1 tpl-grid_col-gap_full tpl-grid_row-gap_full">
+            <div class="section__fraction section__fraction_s_space-xxxl">
+                <div class="vector vector_name_money decorator decorator_indent-b_xl">
+                    <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g fill="none" id="VectorNameMoneyBanknote1">
+                            <path fill="var(--vector-tone--1)" fill-rule="nonzero" d="M6.17 45.663l44.811-16.3 11.849 16.974-44.806 16.302z" />
+                            <ellipse fill="var(--vector-tone-1)" fill-rule="nonzero" cx="34" cy="45.5" rx="7" ry="5.5" />
+                        </g>
+                        <g fill="none" id="VectorNameMoneyBanknote2">
+                            <path fill="var(--vector-tone-default)" fill-rule="nonzero" d="M6.17 34.663l44.811-16.3 11.849 16.974-44.806 16.302z" />
+                            <ellipse fill="var(--vector-tone-2)" fill-rule="nonzero" cx="34" cy="35.5" rx="7" ry="5.5" />
+                        </g>
+                        <g fill="none" id="VectorNameMoneyBanknote3">
+                            <path fill="var(--vector-tone-1)" fill-rule="nonzero" d="M6.17 23.663l44.811-16.3 11.849 16.974-44.806 16.302z" />
+                            <ellipse fill="var(--vector-tone-3)" fill-rule="nonzero" cx="34" cy="24.5" rx="7" ry="5.5" />
+                        </g>
+                        <ellipse id="VectorNameMoneyCoin1" fill="var(--vector-tone--1)" fill-rule="nonzero" cx="50" cy="57.5" rx="7" ry="5.5" />
+                        <ellipse id="VectorNameMoneyCoin2" fill="var(--vector-tone-1)" fill-rule="nonzero" cx="50" cy="53.5" rx="7" ry="5.5" />
+                        <ellipse id="VectorNameMoneyCoin3" fill="var(--vector-tone-2)" fill-rule="nonzero" cx="50" cy="49.5" rx="7" ry="5.5" />
+                    </svg>
+                </div>
+                <h2 class="text text_type_h2 decorator decorator_indent-b_l text_size_xl text_weight_bold text_view_primary " id="1">
+                    <span class="text_wrap">
+                        @Resources.res.t1
+                        <a class="title-anchor title-anchor_size_2">
+                        </a>
+                    </span>
+                </h2>
+                <p class="text text_type_p text_view_secondary decorator decorator_indent-b_l text_size_m text_weight_regular">
+                    @Resources.res.txt1
+                </p>
+            </div>
+            <div class="section__fraction section__fraction_s_space-xxxl">
+                <div class="vector vector_name_law decorator decorator_indent-b_xl">
+                    <svg width="74" height="74" viewBox="0 0 74 74" xmlns="http://www.w3.org/2000/svg">
+                        <g id="VectorNameLawHammer">
+                            <path fill="var(--vector-tone--2)" fill-rule="nonzero" d="M36.312 34.217c-1.849 3.497-3.382 7.178-4.598 11.041l-16.454-9.5c3.289-3.586 6.121-7.436 8.496-11.549 2.375-4.114 4.293-8.491 5.754-13.133l16.454 9.5c-2.575 2.808-4.871 5.777-6.886 8.909 1.124.732 2.255 1.406 3.453 2.079 1.271.763 2.627 1.441 3.898 2.034 1.271.593 2.542 1.186 3.729 1.695 1.186.508 2.373 1.017 3.475 1.356 1.102.424 2.119.763 2.966 1.017.932.254 1.695.508 2.373.678.678.169 1.186.339 1.525.424.339.085.593.085.593.085 3.136.508 5.169 3.475 4.576 6.61-.763 2.966-3.475 4.915-6.271 4.576-1.441-.169-2.712-.847-3.644-1.949l-.424-.424c-.254-.254-.593-.678-1.102-1.102-.508-.508-1.102-1.017-1.78-1.61-.678-.593-1.525-1.271-2.458-2.034-.932-.678-1.864-1.441-2.966-2.203-1.102-.763-2.203-1.525-3.39-2.288-1.186-.763-2.458-1.525-3.729-2.288-1.149-.69-2.368-1.31-3.593-1.923z" />
+                            <path fill="var(--vector-tone-1)" d="M16.016 35.027l15.733 9.083c.957.552 1.284 1.775.732 2.732l-.375.65c-.552.957-1.775 1.284-2.732.732l-15.733-9.083c-.957-.552-1.284-1.775-.732-2.732l.375-.65c.552-.957 1.775-1.284 2.732-.732zm15.833-26.917l15.733 9.083c.957.552 1.284 1.775.732 2.732l-.375.65c-.552.957-1.775 1.284-2.732.732l-15.733-9.083c-.957-.552-1.284-1.775-.732-2.732l.375-.65c.552-.957 1.775-1.284 2.732-.732z" />
+                        </g>
+                        <path id="VectorNameLawWood" fill="var(--vector-tone-default)" d="M10 56h25.31c.552 0 1 .448 1 1l-.029.239c-.446 1.809-.669 3.396-.669 4.761 0 1.239.184 2.478.552 3.715.157.529-.144 1.086-.674 1.244-.092.027-.188.041-.285.041h-25.061c-.552 0-1-.448-1-1 0-.096.014-.192.041-.285.284-.955.426-2.194.426-3.715 0-1.769-.192-3.346-.575-4.733-.147-.532.165-1.083.697-1.23l.267-.036z" />
+                    </svg>
+                </div>
+                <h2 class="text text_type_h2 decorator decorator_indent-b_l text_size_xl text_weight_bold text_view_primary text_anchor_true" id="2">
+                    <span class="text_wrap">
+                        @Resources.res.t3
+                        <a class="title-anchor title-anchor_size_2" href="#2">
+                        </a>
+                    </span>
+                </h2>
+                <p class="text text_type_p text_view_secondary decorator decorator_indent-b_l text_size_m text_weight_regular" lang="ru">
+                    @Resources.res.txt3
+                </p>
+            </div>
+            <div class="section__fraction section__fraction_s_space-xxxl">
+                <div class="vector vector_name_connection decorator decorator_indent-b_xl">
+                    <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="none" id="VectorNameConnectionPlug">
+                            <path fill="var(--vector-tone-1)" d="M37.975 30.576l5.302 5.302c.586.586.586 1.535 0 2.121-.586.586-1.535.586-2.121 0l-5.302-5.302 2.121-2.121zM30.197 38.354l5.302 5.302c.586.586.586 1.535 0 2.121-.586.586-1.535.586-2.121 0l-5.302-5.302 2.121-2.121z" />
+                            <path fill="var(--vector-tone--1)" d="M28.075 36.233l2.121 2.121-2.121 2.121-2.121-2.121zM35.854 28.454l2.121 2.121-2.121 2.121-2.121-2.121z" />
+                            <path fill="var(--vector-tone-default)" d="M30.197 14.313l9.898 9.898-18.382 18.382-9.898-9.898z" />
+                            <path fill="var(--vector-tone--2)" d="M7.241 12.569l-3.621-3.621c-.781-.781-.781-2.047 0-2.828.781-.781 2.047-.781 2.828 0l3.621 3.621c1.334-.356 2.817-.011 3.864 1.036l-5.657 5.657c-1.047-1.047-1.392-2.53-1.036-3.864z" />
+                            <path fill="var(--vector-tone--1)" d="M30.194 14.313l-15.554-4.242-7.07 7.07 4.242 15.554z" />
+                        </g>
+                        <g fill="none" id="VectorNameConnectionSocket">
+                            <path fill="var(--vector-tone-default)" d="M49.288 33.407l9.898 9.898-18.382 18.382-9.898-9.898z" />
+                            <path fill="var(--vector-tone--2)" d="M63.759 63.431l3.621 3.621c.781.781.781 2.047 0 2.828-.781.781-2.047.781-2.828 0l-3.621-3.621c-1.334.356-2.817.011-3.864-1.036l5.657-5.657c1.047 1.047 1.392 2.53 1.036 3.864z" />
+                            <path fill="var(--vector-tone--1)" d="M59.186 43.305l4.242 15.554-7.07 7.07-15.554-4.242z" />
+                        </g>
+                    </svg>
+                </div><h2 class="text text_type_h2 decorator decorator_indent-b_l text_size_xl text_weight_bold text_view_primary text_anchor_true" id="3">
+                    <span class="text_wrap">
+                        @Resources.res.t2
+                        <a class="title-anchor title-anchor_size_2" href="#3">
+                        </a>
+                    </span>
+                </h2>
+                <p class="text text_type_p text_view_secondary decorator decorator_indent-b_l text_size_m text_weight_regular">
+                    @Resources.res.txt2
+                </p>
+            </div>
+            <div class="section__fraction section__fraction_s_space-xxxl">
+                <div class="vector vector_name_support decorator decorator_indent-b_xl">
+                    <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="var(--vector-tone-2)" fill-rule="nonzero" d="M35.58 41.104c6.492 0 11.755-7.606 11.755-15.953s-2.507-15.113-11.755-15.113c-9.248 0-11.755 6.766-11.755 15.113s5.263 15.953 11.755 15.953z" />
+                        <path fill="var(--vector-tone-default)" fill-rule="nonzero" d="M49.024 18.434c-1.501-6.028-6.951-10.495-13.444-10.495-6.493 0-11.943 4.467-13.444 10.495h.01v11.07c.661 3.403 2.104 6.451 4.331 9.16l-1.946 1.6c-2.537-3.086-4.169-6.579-4.892-10.461-1.512-.608-2.531-2.093-2.531-5.492 0-3.265.94-4.764 2.355-5.416 1.368-7.66 8.063-13.475 16.117-13.475 8.063 0 14.764 5.828 16.122 13.501 1.412.674 2.35 2.191 2.35 5.391 0 4.962-2.255 5.877-5.038 5.877v-11.755h.01z" />
+                        <path fill="var(--vector-tone--2)" fill-rule="nonzero" d="M25.505 11.297c6.7.582 6.045-3.376 12.784-1.782 4.639 1.097 7.474 4.35 8.505 9.758-2.928-2.696-5.235-4.043-6.92-4.043-6.717 0-8.677 7.044-14.369 3.204-1.28-.864-2.614-4.469 0-7.137z" />
+                        <path fill="var(--vector-tone-default)" fill-rule="nonzero" d="M63.212 63.421c-8.134 2.492-17.392 3.902-27.212 3.902-9.986 0-19.389-1.457-27.622-4.028l.886-4.962c.688-3.852 3.544-6.957 7.325-7.965l8.328-2.219c1.408-.375 2.521-1.454 2.94-2.85l1.007-3.355c1.636 1.119 3.874 1.679 6.717 1.679 2.842 0 5.081-.56 6.717-1.679l1.004 3.348c.419 1.395 1.531 2.474 2.938 2.85l8.568 2.287c3.658.976 6.46 3.921 7.254 7.624l1.151 5.37z" />
+                        <path fill="var(--vector-tone--2)" fill-rule="nonzero" d="M39 68l-3 2-3-2 1.689-14.663-1.657-2.578 2.969-2.099 2.969 2.099-1.657 2.577z" />
+                    </svg>
+                </div>
+                <h2 class="text text_type_h2 decorator decorator_indent-b_l text_size_xl text_weight_bold text_view_primary text_anchor_true" id="4">
+                    <span class="text_wrap">
+                        @Resources.res.t4
+                        <a class="title-anchor title-anchor_size_2" href="#4">
+                        </a>
+                    </span>
+                </h2>
+                <p class="text text_type_p text_view_secondary decorator decorator_indent-b_l text_size_m text_weight_regular">
+                    @Resources.res.txt4
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="tpl-layout__container mytext-center tpl-layout__container_size_m tpl-layout__container_align_center section section_view_default theme theme_color_kassa-default">
+        <h2 class="text-center mytext-center text_display_inline-block decorator decorator_indent-b_xxl decorator decorator_indent-r_xxxl text_size_xxxl text_weight_bold text_view_primary " lang="ru" id="5">
+            <span class="text-center mytext-center">
+                @Resources.res.price
+
+            </span>
+        </h2>
+
+
+        <div class="tpl-grid tpl-grid_l-ratio_1-1-1-1 tpl-grid_m-ratio_1-1-1-1 tpl-grid_s-ratio_1-1 tpl-grid_col-gap_full tpl-grid_row-gap_full">
+
+
+
+
+        </div>
+
+
+    </div>
+
+    <div class="tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center section section_vertical-align_center section_height_screen section_view_default decorator__padding decorator__padding_bottom_xxxxxl">
+        <div class="tpl-layout__item">
+            <h2 class="text text_type_h2-promo text_align_center decorator decorator_indent-b_xxxl text_size_xxxl text_weight_bold text_view_primary text_anchor_true" lang="ru" id="6">
                 <span class="text_wrap">
-                    @Resources.res.questAnswer
-
+                    @Resources.res.howToConnect
+                    <a class="title-anchor title-anchor_size_2" href="#6">
+                    </a>
                 </span>
-
             </h2>
-            <div class="tpl-grid tpl-grid_xl-columns_10 tpl-grid_l-columns_10 tpl-grid_m-columns_12 tpl-grid_s-columns_8 tpl-grid_col-gap_full tpl-grid_row-gap_full">
-                <div class="tpl-grid__fraction tpl-grid__fraction_l-col_5 tpl-grid__fraction_m-col_6 tpl-grid__fraction_s-col_4">
-                    <div class="faq pt-list tpl-grid tpl-grid_row-gap_full">
+            <ol class="steps steps_view_split tpl-grid tpl-grid_s-ratio_1-1 tpl-grid_m-ratio_1-1-1-1">
 
-                        <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <div class="pt-icon-plus">
-                                <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
-                                    &#10095;
+                <li class="steps__item">
+                    <div class="steps__number">
+                    </div>
+                    <p class="text text_type_p text_view_secondary steps__text text_size_m text_weight_regular" lang="ru">
+                        @Resources.res.con1
+                    </p>
+                </li>
+
+                <li class="steps__item">
+                    <div class="steps__number">
+                    </div>
+                    <p class="text text_type_p text_view_secondary steps__text text_size_m text_weight_regular" lang="ru">
+                        @Resources.res.con2
+                    </p>
+                </li>
+
+                <li class="steps__item">
+                    <div class="steps__number">
+                    </div>
+                    <p class="text text_type_p text_view_secondary steps__text text_size_m text_weight_regular" lang="ru">
+                        @Resources.res.con3
+                    </p>
+                </li>
+
+                <li class="steps__item">
+                    <div class="steps__number">
+                    </div>
+                    <p class="text text_type_p text_view_secondary steps__text text_size_m text_weight_regular" lang="ru">
+                        @Resources.res.con4
+                    </p>
+                </li>
+
+
+            </ol>
+        </div>
+    </div>
+
+
+    <div class="tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center section section_view_dark">
+        <div class="get-kassa get-kassa_type_custom decorator decorator_indent-b_xxxxl">
+            <h2 class="text text_type_h2 text_align_center decorator decorator_indent-b_l decorator_indent-h_auto text_size_xl text_weight_bold text_view_primary text_anchor_true" lang="ru" id="7">
+                <span class="text_wrap">
+                    @Resources.res.ready
+                    <a class="title-anchor title-anchor_size_2" href="#7">
+                    </a>
+                </span>
+            </h2>
+            <div class="text text_size_m text_view_secondary text_short_medium decorator decorator_indent-h_auto decorator_indent-b_xxl" lang="ru">
+                @Resources.res.questionToManager
+            </div>
+            <a class="myBtn white_text button button_theme_kassa button_size_m button_view_action button_type_link button_for_auth decorator decorator_indent-t_s decorator_indent-r_l ya-metrica ya-metrica_goal button__control i-bem" data-bem='{"button":{}}' role="link">
+                <span class="button__text">
+                    @Resources.res.connect
+                </span>
+            </a>
+            <a class="myBtn green_text button button_theme_kassa button_size_l button_type_link button_view_plain decorator decorator_indent-a_s button__control i-bem " data-bem='{"button":{}}' role="link">
+                <span class="icon icon_size_s icon_view_link icon_name_comment">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                        <path fill-rule="evenodd" d="M1 3h14c.552 0 1 .456 1 1.019v7.983A.992.992 0 0 1 15 13H9l-4.505 2.861A.99.99 0 0 1 3 15v-2.003H1a.99.99 0 0 1-1-.995V4.02A1.01 1.01 0 0 1 1 3zm1 1.999V11h3v2l3-2h6V5L2 4.999z" />
+                    </svg>
+                </span>
+                <span class="button__text ">
+                    @Resources.res.question
+                </span>
+            </a>
+        </div>
+        @*<div class="text text_size_xs text_view_secondary text_align_center text_short_default" style="display: block; margin: auto" lang="ru">Сервис предоставляется ООО &laquo;Кит Инвест&raquo; (ИНН 4004007928) в&nbsp;порядке и&nbsp;на&nbsp;условиях, заключаемого между сторонами
+            <a class="text text_view_link" href="https://kit-invest.ru/rules/54fz.pdf" lang="ru">договора.</a> ООО НКО &laquo;Яндекс.Деньги&raquo; не&nbsp;несёт ответственность за&nbsp;этот сервис. С&nbsp;вопросами по&nbsp;поддержке сервиса звоните ООО &laquo;Кит Инвест&raquo; по&nbsp;номеру&nbsp;<nobr class="phone">8 (800) 350-15-40</nobr> или пишите на&nbsp;info@kit-invest.ru
+            </div>*@
+    </div>
+
+    <div class="tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center section">
+        <h2 class="text text_type_h2-promo decorator decorator_indent-b_xxxl text_size_xxxl text_weight_bold text_view_primary text_anchor_true" lang="ru" id="8">
+
+            <span class="text_wrap">
+                @Resources.res.questAnswer
+
+            </span>
+
+        </h2>
+        <div class="tpl-grid tpl-grid_xl-columns_10 tpl-grid_l-columns_10 tpl-grid_m-columns_12 tpl-grid_s-columns_8 tpl-grid_col-gap_full tpl-grid_row-gap_full">
+            <div class="tpl-grid__fraction tpl-grid__fraction_l-col_5 tpl-grid__fraction_m-col_6 tpl-grid__fraction_s-col_4">
+                <div class="faq pt-list tpl-grid tpl-grid_row-gap_full">
+
+                    <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="pt-icon-plus">
+                            <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
+                                &#10095;
+                            </div>
+                            <div class="pt-icon-plus__block">
+                                <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
+                                    @Resources.res.q1
                                 </div>
-                                <div class="pt-icon-plus__block">
-                                    <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        @Resources.res.q1
-                                    </div>
-                                    <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                        <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            @Resources.res.a1
-                                        </p>
-                                    </div>
+                                <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
+                                        @Resources.res.a1
+                                    </p>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <div class="pt-icon-plus">
-                                <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
-                                    &#10095;
+                    <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="pt-icon-plus">
+                            <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
+                                &#10095;
+                            </div>
+                            <div class="pt-icon-plus__block">
+                                <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
+                                    @Resources.res.q2
                                 </div>
-                                <div class="pt-icon-plus__block">
-                                    <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        @Resources.res.q2
-                                    </div>
-                                    <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                        <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            @Resources.res.a2
-                                        </p>
+                                <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
+                                        @Resources.res.a2
+                                    </p>
 
-                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <div class="pt-icon-plus">
-                                <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
-                                    &#10095;
+                    <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="pt-icon-plus">
+                            <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
+                                &#10095;
+                            </div>
+                            <div class="pt-icon-plus__block">
+                                <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
+                                    @Resources.res.q3
                                 </div>
-                                <div class="pt-icon-plus__block">
-                                    <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        @Resources.res.q3
-                                    </div>
-                                    <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                        <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            @Resources.res.a3
-                                        </p>
-                                    </div>
+                                <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
+                                        @Resources.res.a3
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="tpl-grid__fraction tpl-grid__fraction_l-col_5 tpl-grid__fraction_m-col_6 tpl-grid__fraction_s-col_4">
-                    <div class="faq pt-list tpl-grid tpl-grid_row-gap_full">
-                        <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <div class="pt-icon-plus">
-                                <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
-                                    &#10095;
+            <div class="tpl-grid__fraction tpl-grid__fraction_l-col_5 tpl-grid__fraction_m-col_6 tpl-grid__fraction_s-col_4">
+                <div class="faq pt-list tpl-grid tpl-grid_row-gap_full">
+                    <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="pt-icon-plus">
+                            <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
+                                &#10095;
+                            </div>
+                            <div class="pt-icon-plus__block">
+                                <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
+                                    @Resources.res.q4
                                 </div>
-                                <div class="pt-icon-plus__block">
-                                    <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        @Resources.res.q4
-                                    </div>
-                                    <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                        <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            @Resources.res.a4
-                                        </p>
-                                    </div>
+                                <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
+                                        @Resources.res.a4
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <div class="pt-icon-plus">
-                                <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
-                                    &#10095;
+                    </div>
+                    <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="pt-icon-plus">
+                            <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
+                                &#10095;
+                            </div>
+                            <div class="pt-icon-plus__block">
+                                <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
+                                    @Resources.res.q5
                                 </div>
-                                <div class="pt-icon-plus__block">
-                                    <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        @Resources.res.q5
-                                    </div>
-                                    <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                        <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            @Resources.res.a5
-                                        </p>
-                                    </div>
+                                <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
+                                        @Resources.res.a5
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <div class="pt-icon-plus">
-                                <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
-                                    &#10095;
+                    </div>
+                    <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="pt-icon-plus">
+                            <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
+                                &#10095;
+                            </div>
+                            <div class="pt-icon-plus__block">
+                                <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
+                                    @Resources.res.q6
                                 </div>
-                                <div class="pt-icon-plus__block">
-                                    <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        @Resources.res.q6
-                                    </div>
-                                    <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                        <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            @Resources.res.a6
-                                        </p>
-                                    </div>
+                                <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
+                                        @Resources.res.a6
+                                    </p>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <div class="pt-icon-plus">
-                                <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
-                                    &#10095;
+                    <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="pt-icon-plus">
+                            <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
+                                &#10095;
+                            </div>
+                            <div class="pt-icon-plus__block">
+                                <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
+                                    @Resources.res.q7
                                 </div>
-                                <div class="pt-icon-plus__block">
-                                    <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        @Resources.res.q7
-                                    </div>
-                                    <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                        <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            @Resources.res.a7
-                                        </p>
-                                    </div>
+                                <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
+                                        @Resources.res.a7
+                                    </p>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <div class="pt-icon-plus">
-                                <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
-                                    &#10095;
+                    <div class="faq__section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="pt-icon-plus">
+                            <div class="emoji emoji_name_help emoji_size_m pt-icon-plus__icon pt-icon-plus__icon_indent-r_s text text_view_primary">
+                                &#10095;
+                            </div>
+                            <div class="pt-icon-plus__block">
+                                <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
+                                    @Resources.res.q8
                                 </div>
-                                <div class="pt-icon-plus__block">
-                                    <div class="text text_view_primary text_size_l text_weight_bold decorator decorator_indent-b_m" itemprop="name" lang="ru">
-                                        @Resources.res.q8
-                                    </div>
-                                    <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                        <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
-                                            @Resources.res.a8
-                                        </p>
-                                    </div>
+                                <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <p class="text text_view_secondary text_type_p text_size_m text_weight_regular" itemprop="text" lang="ru">
+                                        @Resources.res.a8
+                                    </p>
                                 </div>
                             </div>
                         </div>
-
-
-
                     </div>
 
 
 
-
                 </div>
-
-
-
 
 
 
@@ -463,11 +455,18 @@
 
 
 
+
+
+
         </div>
 
-        <!--------------->
-        @*<div class="footer theme theme_color_kassa-brand theme_gap_small tpl-layout">*@
-        <div class="footer__content tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center">
+
+
+
+    </div>
+
+    <!--------------->
+    @*<div class="footer__content tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center">
 
             <div class="footer__copyrights footer__section footer__section_xs-width_auto footer__section">
                 <img class="image yandex-logo" src="~/pic/logo1.png" height="44" width="150" alt="ERP-SOFT">
@@ -516,9 +515,52 @@
 
 
             </div>
-          
+
             <!--------------->
+        </div>*@
+
+    <div class="container foot-container">
+        <div class="myGrayText myCol">
+            <img src="~/pic/logo1.png" height="44" width="150" alt="ERP-SOFT">
+            <br />
+            <br />
+            <div class="copyright-text">
+                2020 ERP-SOFT MMC
+            </div>
+            <br />
+
+            <div>@Resources.res.address </div>
+            <br />
+            <div class="tel-container">
+                <div class="tel">@Resources.res.phone </div> <div class="phone">
+                    +994 70 322 92 49
+                    <p> +994 55 409 00 32</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="myCol hide-img">
+            <img class="myimage" src="~/pic/kassa2.png">
         </div>
 
 
+        <div class="myCol-lastChild">
+            <div>
+                <div class="myWhiteText">@Resources.res.lang</div>
+
+                <div>
+
+                    <a asp-controller="Home" asp-action="SetRussian">Русский</a>
+                    <a asp-controller="Home" asp-action="SetDefault">Azərbaycan</a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--------------->
     </div>
+
+
+</div>
