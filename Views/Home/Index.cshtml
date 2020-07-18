@@ -3,18 +3,30 @@
     <header class="header">
 
         <nav class="header__nav tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center">
-            <a class="header__logo" tabindex="-1">
+            <a class="header__logo toLeft" tabindex="-1">
                 <img src="~/pic/logo1.png" height="44" width="150" class="mt-2" />
             </a>
 
+            <div class="hideMe">
+                <a class="header__link " href="http://erpsoft.az/?tab=tasks">
+                    erp-soft.az
+                </a>
+                <br />
+                <a class="header__link " href="https://e-kassa.gov.az">
+                    e-kassa.gov.az
+                </a>
 
-            <ul class="header__list">
-                <li class="header__item">
+            </div>
+
+
+            <ul class="header__list toRight ">
+                
+                <li class="header__item first">
                     <a class="header__link " href="http://erpsoft.az/?tab=tasks">
                         erp-soft.az
                     </a>
                 </li>
-                <li class="header__item">
+                <li class="header__item last">
                     <a class="header__link " href="https://e-kassa.gov.az">
                         e-kassa.gov.az
                     </a>
@@ -22,6 +34,8 @@
             </ul>
 
         </nav>
+
+        
     </header>
 
     <div class="tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center section section_vertical-align_center section_height_screen section_view_default">
@@ -452,90 +466,31 @@
 
             </div>
 
-
-
-
-
-
-
         </div>
-
-
-
-
     </div>
 
-    <!--------------->
-    @*<div class="footer__content tpl-layout__container tpl-layout__container_size_m tpl-layout__container_align_center">
+   
 
-            <div class="footer__copyrights footer__section footer__section_xs-width_auto footer__section">
-                <img class="image yandex-logo" src="~/pic/logo1.png" height="44" width="150" alt="ERP-SOFT">
+    <div class="container foot-container">
+        
+        <div class="myGrayText myCol">
+            <div class="bttm">
+                <img src="~/pic/logo1.png" height="44" width="150" alt="ERP-SOFT">
+                <br />
+                <br />
                 <div class="copyright-text">
                     2020 ERP-SOFT MMC
                 </div>
                 <br />
-                <div class="copyright-text">
-                    <div class="phone_container">
-                        <div>@Resources.res.address </div> <div class="phone">
-                            @Resources.res.address1
-                            <p> @Resources.res.address2</p>
-                        </div>
+
+                <div>@Resources.res.address </div>
+                <br />
+                <div class="tel-container">
+                    <div class="tel">@Resources.res.phone </div> <div class="phone">
+                        +994 70 322 92 49
+                        <p> +994 55 409 00 32</p>
+
                     </div>
-                </div>
-
-                <div class="copyright-text">
-                    <div class="phone_container">
-                        <div>@Resources.res.phone </div> <div class="phone">
-                            +994 70 322 92 49
-                            <p> +994 55 409 00 32</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer__applications">
-                <div class="footer__application">
-                    <div class="footer__mobile-photo">
-                        <img class="myimage" src="~/pic/kassa2.png">
-                    </div>
-
-
-                    <div class="footer__prompt">
-                        <div class="footer__title">
-                            <div class="text text_size_l text_view_primary">@Resources.res.lang</div>
-                        </div>
-                        <div class="text text_view_primary text_size_s">
-
-                            <a asp-controller="Home" asp-action="SetRussian">Русский</a>
-                            <a asp-controller="Home" asp-action="SetDefault">Azərbaycan</a>
-
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <!--------------->
-        </div>*@
-
-    <div class="container foot-container">
-        <div class="myGrayText myCol">
-            <img src="~/pic/logo1.png" height="44" width="150" alt="ERP-SOFT">
-            <br />
-            <br />
-            <div class="copyright-text">
-                2020 ERP-SOFT MMC
-            </div>
-            <br />
-
-            <div>@Resources.res.address </div>
-            <br />
-            <div class="tel-container">
-                <div class="tel">@Resources.res.phone </div> <div class="phone">
-                    +994 70 322 92 49
-                    <p> +994 55 409 00 32</p>
-
                 </div>
             </div>
         </div>

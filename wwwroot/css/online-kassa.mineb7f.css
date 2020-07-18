@@ -433,6 +433,7 @@
     box-sizing: border-box;
     padding: 0 var(--gap);
     margin: 0;
+    
     list-style-type: none;
     max-height: calc(var(--vh, vh) * 100 - 52px);
     padding-top: var(--space-s)
